@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Form pemesanan pizza </title>
+    </head>
+    <body>
+        <fieldset>
+            <legend> Form pesan pizza </legend>
+
+            <h1> Selamat datang di PizzJon </h1>
+            <p1> Silahkan isi pesanan anda disini! </p1>
+            <form action="pesanan_pizza.html">
+                <table>
+                    <thead>
+                        <tr>
+                            <td> informasi anda </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td> <label for="nama"> Nama: </label> </td>
+                            <td> <input type="text" id="nama" name="nama" required> </td>
+                        </tr>
+                        <tr>
+                            <td> <label for="alamat"> Alamat: </label> </td>
+                            <td> <input type="text" id="alamat" name="alamat" required> </td>
+                        </tr>
+                        <tr>
+                            <td> <label for="notlp"> Nomor Telephone: </label> </td>
+                            <td> <input type="number" id="notlp" name="notlp" required> </td>
+                        </tr>
+                        <tr>
+                            <td> <label for="email"> Email: </label> </td>
+                            <td> <input type="email" id="email" name="email" required> </td>
+                        </tr>
+                        <tr>
+                            <td> <label for="notes"> Notes: </label> </td>
+                            <td> <textarea type="text" id="notes" name="notes" required placeholder="Tidak boleh lebih dari 100 kata"> </textarea> </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h4> Pilih salah satu </h4>
+                        <label for="crust"> Crust </label> <br>
+
+                        <input type="radio" id="crust" name="crust" value="cs">
+                        <label for="cs"> Classic white </label> <br>
+                        <input type="radio" id="crust" name="crust" value="mg">
+                        <label for="mg"> Multigraint </label> <br>
+                        <input type="radio" id="crust" name="crust" value="sm">
+                        <label for="sm"> Setengah mateng</label> <br>
+                        <input type="radio" id="crust" name="crust" value="wd">
+                        <label for="cs"> Welldone </label> <br>
+                        
+                        <label for="topping"> Topping (lebih dari 1)</label> <br>
+
+                        <input type="checkbox" id="" name="topping" value="ms"> Mushroom <br>
+                        <input type="checkbox" id="" name="topping" value="rs"> Red sauce <br>
+                        <input type="checkbox" id="" name="topping" value="ms"> Double cheese <br>
+                        <input type="checkbox" id="" name="topping" value="ms"> Smoke beef <br>
+
+                        <h4> Number</h4>
+                        <label for=""> Jumlah pizza </label> 
+                        <input type="number" min="2" max="8"> <br> <br>
+
+                        <button type="submit" name="submit" value="sb"> Order Now!</button>
+                        <button type="reset" name="reset" value="rs"> Reset </button>
+            </form>
+        </fieldset>
+    </body>
+</html>

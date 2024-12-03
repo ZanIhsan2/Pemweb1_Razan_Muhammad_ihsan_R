@@ -1,0 +1,51 @@
+body {
+    margin-left: 50px;
+}
+
+.box {
+    width: 250px;
+    height: 600px;
+    border: 1px solid black;
+    float: left;
+    margin: 20px;
+}
+
+.green {
+    background-color: yellowgreen;
+    transform: translateY(1%); 
+    width: 95%;
+    height: 150px;
+}
+
+.yellow {
+background-color: yellow;
+transition: translateY(100%);
+width: 20%;
+height: 210px;
+}
+
+.orange {
+    background-color: orange;
+    transform: translateY(1%); 
+    width: 72%;
+    height: 205px;
+    float: left;
+}
+
+.blue {
+    background-color: aqua;
+    transform: translateY(-157%);
+    width: 72%;
+    height: 200px;
+    float: left;
+    margin: 330px 300px 330px 300px;
+}
+
+.yellow2 {
+background-color: yellow;
+width: 20%;
+height: 200px;
+transform: translateY(270%); 
+margin-left: -440px;
+margin: -278px -263px -278px -263px;
+}

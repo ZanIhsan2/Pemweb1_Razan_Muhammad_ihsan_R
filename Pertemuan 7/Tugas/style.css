@@ -1,0 +1,33 @@
+.container {
+    display: grid;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.block {
+    width: 100px;
+    height: 20px;
+    background-color: lightgray;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-bottom: -5px;
+}
+
+.baris-1 {
+    display: flex;
+    gap: 5px;
+}
+
+.baris-2 {
+    display: flex;
+}
+
+.block1{
+    background-color: lightgray;
+    border: 2px solid black;
+    box-sizing: border-box;
+    width: 60px;
+    height: 18px;
+    border-radius: 5px;
+    margin: 2px;
+}
